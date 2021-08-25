@@ -5,10 +5,12 @@
 
   The mixer will lower the music volume and set the
   button sound volume at "the top of the mix" since 
-  it's got the higher weight. Blending strengths are
-  used here to transition the music (slowly) and the
-  button sound (quickly) between volume levels in
-  respect to their original/set volumes.
+  it has the highest weight. 
+
+  Blending strengths are used here to transition 
+  the music (slowly) and the button sound (quickly)
+  between volume levels in respect to their original/set 
+  volumes.
 --]]
 
 local runService = game:GetService("RunService")
