@@ -15,6 +15,6 @@ mixer:Remove(sound)
  - sound: a sound object to remove from the mix. Removing a sound will return it's volume to the value it had when it as added to the mix.
 
 mixer:Mix()
- - processes the current volume mix. It's reccomended that you call this fairly frequently if you are using any fade strengths other than 1.
+ - processes the current volume mix. It's reccomended that you call this fairly frequently if you are using fade strength values other than 1.
 
 See Source.lua for extra API that I can't be bothered to doccument.
