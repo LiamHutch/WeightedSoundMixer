@@ -84,8 +84,8 @@ function class:Mix()
 		self.LastMix = os.clock()
 
 		-- cuz div/0 sucks
-		-- safe to assume there flat out is no work
-		-- to of WeightMax == 0 anyways
+		-- safe to assume there is no work
+		-- too if WeightMax == 0 
 		if self.WeightMax > 0 then
 			for _, config in next, self.Configs do
 				processMix(config, self.WeightMax, delta)
