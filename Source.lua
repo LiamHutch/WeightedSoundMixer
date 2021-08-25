@@ -7,7 +7,7 @@ class.__index = class
 local DEFAULT_WEIGHT = 1 -- because sometimes you're lazy and don't care
 local DEFAULT_FADE = 1 -- 0 never changes, 1 instant changes, 0<->1 is lerp behavior
 
-local MIX_MIN_DELTA = 1/44 -- won't mix unless this much time has passed
+local MIX_MIN_DELTA = 1/144 -- won't mix unless this much time has passed
 local STRENGTH_FADE_RATE = 1/60 -- fixed timestamp lerping on this rate
 local PROCESS_TIME_CAP = 0.2 -- max amount of processing time between :Mix() calls
 
