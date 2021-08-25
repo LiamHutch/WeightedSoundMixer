@@ -1,7 +1,7 @@
 # WeightedSoundMixer
 Blending sound volumes based on weights where higher weighted sounds play louder than lower weighted sounds. This does not manage or read your sound playback states, it just adjusts volumes. Transitions between volumes are handeled by a fixed-step lerp, tweak it until it sounds good / don't expect a lot of sanity there.
 
-MixedVolume = OriginalVolume * (SoundsGivenWeight / HighestWeightInMixer)
+MixedVolume = OriginalVolume * (GivenWeight / HighestWeightInMixer)
 
 *module.new()*
  - creates a new empty mixer.
