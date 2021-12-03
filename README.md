@@ -9,7 +9,7 @@ MixedVolume = OriginalVolume * (GivenWeight / HighestWeightInMixer)
 *mixer:Add(sound, weight, fadeStrenght)*
  - sound: a roblox sound object (or anything with a .Volume index)
  - weight: any number greater than 0. This represents how loud the sound will be in the mix. If not provided then a default of 1 is used.
- - fadeStrength: where 0 is no change in volume, 0 onto 1 is a quicker change in volume, past 1 your ears hurt. If not provided a default of 1 is used.
+ - fadeStrength: where 0 is no change in volume, 0 onto 1 is a quicker change in volume, 1 is an instant change in volume, and past 1 your ears hurt. If not provided a default of 1 is used.
 
 mixer:Remove(sound)
  - sound: a sound object to remove from the mix. Removing a sound will return it's volume to the value it had when it as added to the mix.
